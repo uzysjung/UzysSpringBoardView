@@ -32,4 +32,4 @@ UzysSpringBoardView is UI component which is similar to the iOS HomeScreen(also 
     }
  5. in order to update uiview you should call reloadData
  	[gridView reloadData];
- 6. 
+ 

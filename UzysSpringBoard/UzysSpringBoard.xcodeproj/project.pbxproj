@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0F937BB147B6E3D004349ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F937BA147B6E3D004349ED /* UIKit.framework */; };
+		C0F937BD147B6E3D004349ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F937BC147B6E3D004349ED /* Foundation.framework */; };
+		C0F937BF147B6E3D004349ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F937BE147B6E3D004349ED /* CoreGraphics.framework */; };
+		C0F937C5147B6E3D004349ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0F937C3147B6E3D004349ED /* InfoPlist.strings */; };
+		C0F937C7147B6E3D004349ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F937C6147B6E3D004349ED /* main.m */; };
+		C0F937CB147B6E3D004349ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F937CA147B6E3D004349ED /* AppDelegate.m */; };
+		C0F937CE147B6E3D004349ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F937CD147B6E3D004349ED /* ViewController.m */; };
+		C0F937D1147B6E3D004349ED /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0F937CF147B6E3D004349ED /* ViewController.xib */; };
+		C0F937F1147B726A004349ED /* icon_del.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F937EF147B726A004349ED /* icon_del.png */; };
+		C0F937F2147B726A004349ED /* icon_del_h.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F937F0147B726A004349ED /* icon_del_h.png */; };
+		C0F937F9147B8994004349ED /* UzysSpringBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F937F8147B8994004349ED /* UzysSpringBoardView.m */; };
+		C0F937FC147B8F1C004349ED /* UzysSpringBoardItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F937FB147B8F1C004349ED /* UzysSpringBoardItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0F937B6147B6E3D004349ED /* UzysSpringBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UzysSpringBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F937BA147B6E3D004349ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C0F937BC147B6E3D004349ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0F937BE147B6E3D004349ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C0F937C2147B6E3D004349ED /* UzysSpringBoard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UzysSpringBoard-Info.plist"; sourceTree = "<group>"; };
+		C0F937C4147B6E3D004349ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0F937C6147B6E3D004349ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0F937C8147B6E3D004349ED /* UzysSpringBoard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UzysSpringBoard-Prefix.pch"; sourceTree = "<group>"; };
+		C0F937C9147B6E3D004349ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0F937CA147B6E3D004349ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0F937CC147B6E3D004349ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0F937CD147B6E3D004349ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0F937D0147B6E3D004349ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C0F937EF147B726A004349ED /* icon_del.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_del.png; sourceTree = "<group>"; };
+		C0F937F0147B726A004349ED /* icon_del_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_del_h.png; sourceTree = "<group>"; };
+		C0F937F7147B8994004349ED /* UzysSpringBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzysSpringBoardView.h; sourceTree = "<group>"; };
+		C0F937F8147B8994004349ED /* UzysSpringBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UzysSpringBoardView.m; sourceTree = "<group>"; };
+		C0F937FA147B8F1C004349ED /* UzysSpringBoardItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzysSpringBoardItem.h; sourceTree = "<group>"; };
+		C0F937FB147B8F1C004349ED /* UzysSpringBoardItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UzysSpringBoardItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0F937B3147B6E3D004349ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F937BB147B6E3D004349ED /* UIKit.framework in Frameworks */,
+				C0F937BD147B6E3D004349ED /* Foundation.framework in Frameworks */,
+				C0F937BF147B6E3D004349ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0F937AB147B6E3D004349ED = {
+			isa = PBXGroup;
+			children = (
+				C0F937C0147B6E3D004349ED /* UzysSpringBoard */,
+				C0F937B9147B6E3D004349ED /* Frameworks */,
+				C0F937B7147B6E3D004349ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0F937B7147B6E3D004349ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0F937B6147B6E3D004349ED /* UzysSpringBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0F937B9147B6E3D004349ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0F937BA147B6E3D004349ED /* UIKit.framework */,
+				C0F937BC147B6E3D004349ED /* Foundation.framework */,
+				C0F937BE147B6E3D004349ED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0F937C0147B6E3D004349ED /* UzysSpringBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C0F937EE147B726A004349ED /* Resource */,
+				C0F937D7147B6E97004349ED /* UzysSpringBoard */,
+				C0F937C9147B6E3D004349ED /* AppDelegate.h */,
+				C0F937CA147B6E3D004349ED /* AppDelegate.m */,
+				C0F937CC147B6E3D004349ED /* ViewController.h */,
+				C0F937CD147B6E3D004349ED /* ViewController.m */,
+				C0F937CF147B6E3D004349ED /* ViewController.xib */,
+				C0F937C1147B6E3D004349ED /* Supporting Files */,
+			);
+			path = UzysSpringBoard;
+			sourceTree = "<group>";
+		};
+		C0F937C1147B6E3D004349ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0F937C2147B6E3D004349ED /* UzysSpringBoard-Info.plist */,
+				C0F937C3147B6E3D004349ED /* InfoPlist.strings */,
+				C0F937C6147B6E3D004349ED /* main.m */,
+				C0F937C8147B6E3D004349ED /* UzysSpringBoard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0F937D7147B6E97004349ED /* UzysSpringBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C0F937F7147B8994004349ED /* UzysSpringBoardView.h */,
+				C0F937F8147B8994004349ED /* UzysSpringBoardView.m */,
+				C0F937FA147B8F1C004349ED /* UzysSpringBoardItem.h */,
+				C0F937FB147B8F1C004349ED /* UzysSpringBoardItem.m */,
+			);
+			path = UzysSpringBoard;
+			sourceTree = "<group>";
+		};
+		C0F937EE147B726A004349ED /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C0F937EF147B726A004349ED /* icon_del.png */,
+				C0F937F0147B726A004349ED /* icon_del_h.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0F937B5147B6E3D004349ED /* UzysSpringBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0F937D4147B6E3D004349ED /* Build configuration list for PBXNativeTarget "UzysSpringBoard" */;
+			buildPhases = (
+				C0F937B2147B6E3D004349ED /* Sources */,
+				C0F937B3147B6E3D004349ED /* Frameworks */,
+				C0F937B4147B6E3D004349ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UzysSpringBoard;
+			productName = UzysSpringBoard;
+			productReference = C0F937B6147B6E3D004349ED /* UzysSpringBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0F937AD147B6E3D004349ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = NCSoft;
+			};
+			buildConfigurationList = C0F937B0147B6E3D004349ED /* Build configuration list for PBXProject "UzysSpringBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0F937AB147B6E3D004349ED;
+			productRefGroup = C0F937B7147B6E3D004349ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0F937B5147B6E3D004349ED /* UzysSpringBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0F937B4147B6E3D004349ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F937C5147B6E3D004349ED /* InfoPlist.strings in Resources */,
+				C0F937D1147B6E3D004349ED /* ViewController.xib in Resources */,
+				C0F937F1147B726A004349ED /* icon_del.png in Resources */,
+				C0F937F2147B726A004349ED /* icon_del_h.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0F937B2147B6E3D004349ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F937C7147B6E3D004349ED /* main.m in Sources */,
+				C0F937CB147B6E3D004349ED /* AppDelegate.m in Sources */,
+				C0F937CE147B6E3D004349ED /* ViewController.m in Sources */,
+				C0F937F9147B8994004349ED /* UzysSpringBoardView.m in Sources */,
+				C0F937FC147B8F1C004349ED /* UzysSpringBoardItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0F937C3147B6E3D004349ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0F937C4147B6E3D004349ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C0F937CF147B6E3D004349ED /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0F937D0147B6E3D004349ED /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0F937D2147B6E3D004349ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C0F937D3147B6E3D004349ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0F937D5147B6E3D004349ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UzysSpringBoard/UzysSpringBoard-Prefix.pch";
+				INFOPLIST_FILE = "UzysSpringBoard/UzysSpringBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C0F937D6147B6E3D004349ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UzysSpringBoard/UzysSpringBoard-Prefix.pch";
+				INFOPLIST_FILE = "UzysSpringBoard/UzysSpringBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0F937B0147B6E3D004349ED /* Build configuration list for PBXProject "UzysSpringBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F937D2147B6E3D004349ED /* Debug */,
+				C0F937D3147B6E3D004349ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0F937D4147B6E3D004349ED /* Build configuration list for PBXNativeTarget "UzysSpringBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F937D5147B6E3D004349ED /* Debug */,
+				C0F937D6147B6E3D004349ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0F937AD147B6E3D004349ED /* Project object */;
+}

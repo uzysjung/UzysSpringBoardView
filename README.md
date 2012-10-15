@@ -21,6 +21,7 @@ UzysSpringBoardView is UI component which is similar to the iOS HomeScreen(also 
 	    gridView.delegate =self;
 
  4. Add Items
+ 
 		for(int i=0;i < 50;i++)
 	    {
 	        UzysSpringBoardItem *tmp=[[[UzysSpringBoardItem alloc] initWithFrame:CGRectNull] autorelease];
@@ -30,6 +31,8 @@ UzysSpringBoardView is UI component which is similar to the iOS HomeScreen(also 
 	            tmp.deletable = NO;
 	        [gridView insertItem:tmp];
 	    }
+ 
  5. in order to update uiview you should call reloadData
+ 
  		[gridView reloadData];
  

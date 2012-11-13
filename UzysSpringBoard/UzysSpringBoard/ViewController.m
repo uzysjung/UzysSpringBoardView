@@ -2,9 +2,9 @@
 //  ViewController.m
 //  UzysSpringBoard
 //
-//  Created by 정 재훈 on 11. 11. 22..
-//  Copyright (c) 2011 NCSoft. All rights reserved.
+//  Created by Uzys on 11. 11. 22..
 //
+
 
 #import "ViewController.h"
 
